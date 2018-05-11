@@ -1,0 +1,12 @@
+#version 330 core
+
+out vec4 color;
+in vec4 fragmentColor;
+in vec2 oTexCord;
+
+uniform sampler2D ourTexture;
+
+void main()
+{
+	color = texture(ourTexture, vec2(oTexCord.x, oTexCord.y * -1)) * vec4(fragmentColor);
+}

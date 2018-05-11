@@ -1,0 +1,34 @@
+﻿  Window.cpp
+c:\users\matke\documents\engine\engine\window.cpp(107): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+c:\users\matke\documents\engine\engine\window.cpp(151): warning C4244: 'argument': conversion from 'Sint32' to 'float32', possible loss of data
+c:\users\matke\documents\engine\engine\window.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\matke\documents\engine\engine\window.cpp(163): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+  SpriteBatch.cpp
+c:\users\matke\documents\engine\engine\spritebatch.cpp(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\matke\documents\engine\engine\spritebatch.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\matke\documents\engine\engine\spritebatch.cpp(113): warning C4018: '<': signed/unsigned mismatch
+  Sprite.cpp
+  Shader.cpp
+c:\users\matke\documents\engine\engine\shader.cpp(111): warning C4018: '<': signed/unsigned mismatch
+c:\users\matke\documents\engine\engine\shader.cpp(120): warning C4018: '<': signed/unsigned mismatch
+  Input.cpp
+  GameObject_Draw.cpp
+  GameObject.cpp
+  Collider2D.cpp
+  Camera2D.cpp
+  Generating Code...
+  Compiling...
+  MainGame.cpp
+  Collision2D.cpp
+c:\users\matke\documents\engine\engine\collision2d.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\matke\documents\engine\engine\collision2d.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\matke\documents\engine\engine\collision2d.cpp(150): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\matke\documents\engine\engine\collision2d.cpp(151): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\matke\documents\engine\engine\collision2d.cpp(152): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\matke\documents\engine\engine\collision2d.cpp(153): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  Engine.vcxproj -> C:\Users\matke\Documents\Engine\Debug\Engine.lib

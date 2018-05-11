@@ -1,0 +1,11 @@
+﻿  Game.cpp
+     Creating library C:\Users\matke\Documents\Engine\x64\Debug\Game.lib and object C:\Users\matke\Documents\Engine\x64\Debug\Game.exp
+Game.obj : error LNK2019: unresolved external symbol "public: __cdecl Eng::Input::Input(void)" (??0Input@Eng@@QEAA@XZ) referenced in function "public: __cdecl Eng::Window::Window(void)" (??0Window@Eng@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol "public: __cdecl Eng::Window::~Window(void)" (??1Window@Eng@@QEAA@XZ) referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\matke\Documents\Engine\deps\lib\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\matke\Documents\Engine\deps\lib\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\matke\Documents\Engine\deps\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\matke\Documents\Engine\Debug\Engine.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\matke\Documents\Engine\deps\lib\SOIL.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\matke\Documents\Engine\x64\Debug\Game.exe : fatal error LNK1120: 3 unresolved externals
